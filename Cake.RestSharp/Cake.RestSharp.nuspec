@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>$id$</id>
+        <version>$version$</version>
+        <title>$title$</title>
+        <authors>$author$</authors>
+        <owners>$author$</owners>
+        <licenseUrl>https://github.com/ChorusSoftwareSolutions/Cake.RestSharp/blob/master/LICENSE.md</licenseUrl>
+        <projectUrl>https://github.com/ChorusSoftwareSolutions/Cake.RestSharp</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>$description$</description>
+        <copyright>Copyright 2015</copyright>
+        <tags>RestSharp Cake</tags>
+    </metadata>
+    <files>
+        <file src="*\*\Cake.RestSharp.dll.config" target="lib/net45"/>
+        <file src="*\*\Cake.Core.dll" target="lib/net45"/>
+        <file src="*\*\Cake.Core.xml" target="lib/net45"/>
+        <file src="*\*\Restsharp.dll" target="lib/net45"/>
+        <file src="*\*\Restsharp.xml" target="lib/net45"/>
+    </files>
+</package>
